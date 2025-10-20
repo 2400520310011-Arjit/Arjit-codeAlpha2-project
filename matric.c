@@ -1,3 +1,4 @@
+//Matrix Operation code
 #include <stdio.h>
 int main() {
      
@@ -9,7 +10,7 @@ int main() {
    
     for(int i=0;i<row;i++){
         for(int j=0;j<col;j++){
-            printf("Enter Element [%d %d] of MatrixA :- ",i+1,j+1);
+            printf("Enter  [%d %d] of MatrixA :- ",i+1,j+1);
             scanf("%d",&matrixA[i][j]);
         }
     }
@@ -20,8 +21,7 @@ int main() {
             printf("Enter Element [%d %d] of MatrixB :- ",i+1,j+1);
             scanf("%d",&matrixB[i][j]);
         }
-    }
-    // Addition code
+    
     int matrixC[row][col];
     for(int i=0;i<row;i++){
         for(int j=0;j<col;j++){
@@ -73,7 +73,7 @@ int main() {
         printf("\n");
     }   
     printf("\n");  
-    printf("MatrixC :- Addition of MatrixA & MatrixB");
+    printf("MatrixC :- Add of MatrixA & MatrixB");
     printf("\n");
     for(int i=0;i<row;i++){
         for(int j=0;j<col;j++){
@@ -82,7 +82,7 @@ int main() {
         printf("\n");
     }
     printf("\n");
-    printf("MatrixF :- Multiplication of MatrixA & MatrixB");
+    printf("MatrixF :- Multiplyof MatrixA & MatrixB");
     printf("\n");
     for(int i=0;i<row;i++){
         for(int j=0;j<col;j++){
@@ -111,4 +111,5 @@ int main() {
     printf("\n");
     
     return 0;
+
 }
